@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Press+Start+2P&family=Roboto:wght@700&display=swap');
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    margin: 0px;
+    padding: 0%;
+    background-size: cover;
+    height: 100%;
+}
+.bgVid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background: url(/imagens/video.mp4) no-repeat center;
+    background-size: cover;
+    filter: blur(3px);
+}
+main{
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maintxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: max(2vh );
+    width: 80%;
+    text-shadow: #000000 4px 1px;
+    word-spacing: 4px;
+    text-align: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    background: #4d518c;
+    opacity: 0.9;
+    color: white;
+}
+/* #4d518c azul #ff9300 amarelo #e05555 vermelho #242424 preto*/
+a{
+    padding-left: 35px;
+    color: #000000;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    color: #31ff80;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    font-size: 7px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: #4d518c;
+    opacity: 0.9;
+    color: white;
+}
